@@ -1,0 +1,66 @@
+<%@page pageEncoding="UTF-8"%>
+	<div id="page-header">
+   	  <ul class="fl menu-bar">
+        	<li class="fl menu-item dropdown">
+            	<a href="#">课堂管理</a>
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="/fanzhuanketang/CourseManagement/Add/addCourse.jsp">添加课程</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/CourseManagement/ShowInfoServlet">查看课程</a></li>
+				</ul>
+            </li>
+            <li class="fl menu-item dropdown">
+            	<a href="#">试题管理</a>
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="/fanzhuanketang/TestManage/ClassTest.jsp">查看试题列表</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/TestManage/TestAnswer.jsp">学生回答情况</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/TestManage/VoteStatue.jsp">学生投票情况</a></li>
+				</ul>
+            </li>
+            <li class="fl menu-item dropdown">
+            	<a href="#">作业管理</a>
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="/fanzhuanketang/HomeworkManage/Teacher/TeacherLoad.jsp">上传作业</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/HomeworkManage/Teacher/selectcheck.jsp">作业查询</a></li>
+				</ul>
+            </li>
+            <li class="fl menu-item">
+            	<a href="/fanzhuanketang/QuestionOnline/QuesList.jsp">在线问答</a>
+			</li>
+			<li class="fl menu-item dropdown">
+            	<a href="#">查询</a>
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="/fanzhuanketang/LearningPoint/AddStudy.html">增加教材</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/LearningPoint/delete.html">删除教材</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/LearningPoint/display_book.html">按教材</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/LearningPoint/display_study.html">按知识点</a></li>
+				</ul>
+            </li>
+			<li class="fl menu-item dropdown">
+            	<a href="#">课件</a>
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="/fanzhuanketang/ToLearnPointServlet">文件上传</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/FindAllFileServlet">根据上传者查询</a></li>
+					<li class="menu-item"><a href="/fanzhuanketang/servlet/ListFileServlet">根据课程查询</a></li>
+				</ul>
+            </li>
+    	</ul> 
+    	<ul class="fr menu-bar">
+			<li class="fr menu-item dropdown"><a href="#">语言</a>  
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="?lang=zh_CN">中文</a></li>
+				</ul>
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="?lang=en_US">English</a></li>
+				</ul>
+			</li>  
+		</ul>
+		<ul class="fr menu-bar">    
+			<li class="fr menu-item dropdown">
+				<a href="#">我的账户</a>  
+				<ul class="dropdown-menu-bar">
+					<li class="menu-item"><a href="/fanzhuanketang/LoginRegister/logout.action">退出账户</a></li>  
+				</ul>
+			</li>  
+		</ul>
+	</div>
+	

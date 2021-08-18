@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>知识点查询课件</title>
+<style>
+* { padding:0; margin:0;}
+.div1{
+	color:red;
+	height:80px;
+	font-size:60px;
+	text-align:center;
+	}
+.div2{
+	text-align:center;
+	height:100px;
+	}
+.div3{
+	width:100%;
+	height:800px;
+	text-align:center;
+	background:url(images/background.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+.div4{
+	height:100px;
+	}
+.A1{
+	text-decoration: none;
+	}
+</style>
+</head>
+
+<body>
+<script language="javascript">
+//javascript check函数，用于检查表单中输入的用户昵称和登录密码是否为空
+function check()
+{
+	if(document.form1.roomNum.value=='')
+	{
+		alert("查找房号不能为空!");
+		document.form1.roomNum.focus();
+		return false;
+		}
+	else
+		return true;
+ }
+</script>
+<div class="div1">
+
+</div>
+<div class="div2">
+</div>
+<div class="div3">
+<form action="display_study.jsp" name="form1" method="post" onSubmit="return check()">
+    	<table align="center" bgcolor="#ff8000">
+    		<tr>
+    			<td>请输入想要查询的知识点：</td>
+    			<td><input type="text" name="study"></td>
+                <td><input type="submit" value="查找"></td>
+    		</tr>
+		</table>
+</form>
+</div>
+<div class="div4">
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* CSS Document */
+body{
+	font-size:14px;
+	background:#ECECEC;
+	color:#2d2d2d;
+	font-family:"微软雅黑";
+	margin: 0;
+}
+a{
+	text-align:center;
+	text-decoration:none;
+}
+.fl {
+	float:left;
+	margin-left:24px;
+}
+.fr {
+	float: right;
+    margin-right: 24px;
+}
+#page-header{
+	height:65px;
+	color:#2d2d2d;
+	background-color:#474747;
+}
+ul.menu-bar{
+	display:block;
+	list-style:none;
+	margin-top:36px;
+}
+li.menu-item{
+	display:block;
+	font-size:16px;
+	display:block;
+	height:24px;
+	line-height:24px;
+}
+li.menu-item a{ 	
+	background-color:#474747;
+	width:120px;
+	display:block;
+	padding:0px 10px;
+	color:rgb(255,255,255);
+	font-size:16px;
+}
+li.menu-item a:hover{
+	color:rgb(71,71,71);
+	background-color:rgb(255,255,255);
+}
+ul.dropdown-menu-bar {
+	padding-left:0px;
+	position:absolute;
+	display:none;
+	list-style:none;
+}
+li.dropdown:hover ul.dropdown-menu-bar{ 
+	display:block;
+}

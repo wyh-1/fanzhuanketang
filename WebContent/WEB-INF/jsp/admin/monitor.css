@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.monitor table tr td{
+    text-align:center;  
+} 
+.monitor table{
+	border:solid 1px;
+}

@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+body{
+	
+	margin: 0;
+    padding: 0;
+}
+#div0{
+	text-align:center;
+	border:1px solid white;
+	height:100px;
+	margin-top:10px;
+}
+#div0 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:25px;
+}
+#div1{
+	text-align:center;
+	border:1px solid white;
+	height:100px;
+	margin-top:10px;
+}
+#div1 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:25px;
+}
+#div2{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div2 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div3{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div3 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div4{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div4 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div5{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div5 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div6{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div6 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div7{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div7 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div8{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div8 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div9{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div9 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div10{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div10 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+#div11{
+	text-align:center;
+	border:1px solid white;
+	height:200px;
+	margin-top:10px;
+}
+#div11 a{
+	text-decoration:none;
+	font-family:仿宋;
+	font-size:20px;
+}
+table{
+	border:1px solid #FFFFFF;
+	border-collapse:collapse;
+}
+table th{
+	color:#2467FA;
+	background:#DADADA;
+	font-family:仿宋;
+	font-size:16px;
+	border:1px solid #FFFFFF;
+}
+table td{
+	height:10px;
+	background:#F1F1F1;
+	text-align:center;
+	border:1px solid #FFFFFF;
+}

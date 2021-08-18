@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fanzhuanketang.dao.TeacherDAO" >
+    <select id="selectByID" parameterType="Teacher" resultType="Teacher">
+	    select ID,Title,Overtime,Type,Text,CreateTime,TeacherID,CourseID from Homework where TeacherID=#{id}
+    </select>
+     <select id="select1" resultType="Student">
+	   select Name from Student where StudentID=#{studentid} 
+    </select>
+    <select id="select2" resultType="HomeworkAnswer">
+	   select HomeworkID,StudentID,STeacherID,Text from HomeworkAnswer where HomeworkID=#{homeworkid}
+    </select>
+     <select id="select3" resultType="Homework">
+	   select Type,Title from Homework where HomeworkID=#{homeworkid} 
+    </select>
+    <insert id="add" parameterType="Homework">
+	    insert into Homework {
+	    ID
+	    Title,
+	    Overtime,
+	    Type,
+	    Text,
+	    CreateTime,
+	    TeacherID,
+	    CourseID
+	    }
+	    values(
+	    #{userid}
+	    #{Title},
+	    #{Overtime},
+	    #{Type},
+	    #{Text},
+	    #{CreateTime},
+	    #{TeacherID},
+	    #{CourseID}
+	    )
+</mapper>

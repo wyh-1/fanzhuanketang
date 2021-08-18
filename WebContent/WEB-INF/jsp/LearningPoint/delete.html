@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>删除知识点</title>
+<style type="text/css">
+* { padding:0; margin:0;}
+.div1{
+	color:red;
+	height:80px;
+	font-size:60px;
+	text-align:center;
+	}
+.div2{
+	width:100%;
+	height:650px;
+	background:url(images/background.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+.div3{
+	height:100px;
+	}
+</style>
+<script>
+	function checkform()
+	{
+	         flag=1;           
+             if (document.info.PointNum.value=="")
+             {
+             alert("请输入12位编号");
+             document.info.PointNum.focus();
+             flag=0;
+             return false;
+             }
+			 if(flag==1)
+             {
+                document.info.submit();
+             }
+               
+	}
+
+</script>
+</head>
+<body>
+<div class="div1">
+</div>
+<div class="div2">
+<form action="delete.jsp" name="info" method="post">
+<table align="center" bgcolor="#8000ff">
+  <tr>
+    <td>12位编号：</td>
+    <td><input type="text" name="PointNum" value=""/></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div align="center">
+      <input type="submit" value="删除" OnClick="return checkform();"/>
+      &nbsp;&nbsp;<input type="reset" value="重置" />
+    </div>
+    </tr>
+</table>
+</form>
+</div>
+<div class="div3">
+</div>
+</body>
+</html>
